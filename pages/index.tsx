@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <h1
+    <div
       style={{
         width: "100vw",
         height: "100vh",
@@ -14,8 +14,8 @@ const Home: NextPage = () => {
         justifyContent: "center",
       }}
     >
-      MEETARC IS COMING SOON
-    </h1>
+      <h1>MEETARC IS COMING SOON</h1>
+    </div>
   );
 };
 
